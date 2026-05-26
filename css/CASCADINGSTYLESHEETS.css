@@ -1,0 +1,135 @@
+
+* {  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+* {
+text-align:center;
+justify-content: space-around;
+font-size: 1rem;
+text-size-adjust: 100%;
+}
+header {
+background-color: rgb(99, 167, 255);
+max-height: 10%;
+padding: 2%;
+margin-bottom: 5%;
+}
+.headname {
+border-radius: 20%;
+background-color: rgb(35, 120, 255);
+padding:2%;
+}
+#headerlistabove1024{
+display: none;
+}
+img {
+max-width: 100%;
+}
+.student {
+  margin: 5%;
+}
+.portfolio {
+padding: 10%;
+border-radius: 5%;
+border-width: 3rem;
+border: solid blue;
+margin-bottom: 5%;
+margin-top: 5%;
+}
+
+#footershow {
+display: flex;
+flex-direction: row;
+}
+footer {
+background-color: rgb(99, 167, 255);
+}
+
+.showon320 {
+display:flex;
+background-color: rgb(35, 120, 255);
+border-color: blue;
+border-radius: 20%;
+padding: 2%;
+}
+#footernoshow {
+display: none;
+}
+#threerow1 {
+  display:none;
+}
+#threerow2 {
+  display:none;
+}
+@media 
+(min-width: 768px)   {
+* {
+font-size: 1.5rem;
+}
+#headthree768 {
+display: flex;
+flex-direction: row;
+}
+.student {
+display: flex;
+}
+#studentP {
+  order: -1;
+}
+.tworow1{
+  display:flex;
+  flex-direction:row;
+}
+.tworow2{
+  display:flex;
+  flex-direction:row;
+}
+.tworow3{
+  display:flex;
+  flex-direction:row;
+}
+#backtotop {
+display:none;
+}
+footer{
+display:flex;
+flex-direction: row;
+}
+#footernoshow {
+display:flex; 
+flex-direction: row; 
+}
+.noshow {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+@media (min-width: 1024px)  {
+  #headerlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .portfoli {
+    display:none;
+  }
+  #threerow1 {
+    display:flex;
+    flex-direction:row;
+  }
+  #threerow2 {
+    display:flex;
+    flex-direction:row;
+  }
+  .headthree,
+  .noshow {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  footer {
+  justify-content: space-between;
+  align-items: center;
+  }
+}
+}
